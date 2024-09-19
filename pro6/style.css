@@ -1,0 +1,143 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar
+{
+    height: 80px;
+    width: 100%;
+    background-color:whitesmoke;
+}
+.navbar-container
+{
+    height: 80px;
+    width: 80%;
+    margin: auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    height: 80px;
+    width: 20%;
+    /* background-color: red; */
+}
+.logo img
+{
+    height: 80px;
+    /* width: 100%; */
+}
+.navbar-menu{
+    height: 80px;
+    width: 50%;
+    /* background-color: red; */
+}
+.navbar-menu ul
+{
+    display: flex;
+    
+}
+.navbar-menu li
+{
+    list-style: none;
+    padding: 0px 20px 0px 0px;
+}
+.navbar-menu  a
+{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.header
+{
+    height: 40px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 20px;
+}
+.header p
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.content
+{
+    height: 200px;
+    width: 80%;
+    /* background-color: black; */
+    margin: auto;
+    /* margin-top: 25px; */
+    text-align: justify;
+    font-weight: bold;
+}
+.gallery
+{
+    height: 500px;
+    width: 100%;
+    margin-top: 5%;
+    /* background-color: black; */
+}
+.gallery h1{
+    text-align: center;
+}
+.picture
+{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    /* margin-top: 5%; */
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+}
+.box1
+{
+    height: 400px;
+    width: 32.3%;
+    background-color: aqua;
+}
+.box1 img
+{
+    height: 400px;
+    width: 100%;
+}
+.box2
+{
+    height: 400px;
+    width: 32.3%;
+    background-color: aqua;
+}
+.box2 img
+{
+    height: 400px;
+    width: 100%;
+}
+.box3
+{
+    height: 400px;
+    width: 32.3%;
+    background-color: aqua;
+}
+.box3 img
+{
+    height: 400px;
+    width: 100%;
+}
+.foote
+{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+.foote p{
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    
+}
